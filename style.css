@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&family=Sansita+Swashed&display=swap');
+
+@font-face{ 
+	font-family: 'MyWebFont';
+    src: url('./Shaka\ Pow.ttf') format('truetype')
+}
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    top: -32px;
+    left: -294px;
+}
+
+#container2 {
+    position: relative;
+    top: -106px;
+    left: -297px;
+    z-index: -2;
+}
+
+body {
+    position: relative;
+    background-color: #0e1111;
+    box-sizing: border-box;
+}
+
+#rollDiceImg {
+    margin:auto;
+    position: relative;
+    width: 850px;
+    height: 300px;
+    /* border: 2px solid #10071E; */
+    border-radius: 15px;
+}
+
+
+#reset {
+    position: relative;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'MyWebFont';
+    background-color: #d89a00;
+    height: 25px;
+    width: 41px;
+    border-radius: 15px;
+    top: -113px;
+    left: 704px;
+
+}
+
+#breakdown {
+    position: relative;
+    cursor: pointer;
+    font-family: 'MyWebFont';
+    background-color: #d89a00;
+    height: 36px;
+    width: 98px;
+    border-radius: 15px;
+    top: 241px;
+    left: 677px;
+}
+
+#roll {
+    position: relative;
+    cursor: pointer;
+    font-family: 'MyWebFont';
+    background-color: #d89a00;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    top: -32px;
+    left: 880px;
+}
+
+#ordered {
+    position: relative;
+    border: 1px solid #d89a00;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    align-items: flex-start;
+    width: 150px;
+    left: 2px;
+    top: -2px;
+}
+}
+
+}
+
+#pic {
+    /* position: relative; */
+    height: 100px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+#form {
+    position: relative;
+    border: 1px solid #d89a00;
+    width: 245px;
+    border-radius: 5px;
+    left: 383px;
+}
+
+.labels {
+    font-family: 'MyWebFont';
+    font-size: 30px;
+    color: #d89a00;
+
+}
+
+#total {
+    font-family: 'MyWebFont';
+    font-size: 30px;
+    color: #d89a00;
+    position: relative;
+    left: 690px;
+    top: 30px;
+}
+
+#totalRoll {
+    position: absolute;
+    font-family: "Times New Roman";
+    color: #d89a00;
+    border: 1px solid #d89a00;
+    text-align: center;
+    left: 671px;
+    top: 135px;
+    height: 100px;
+    width: 110px;
+    border-radius: 12px;
+    text-decoration: underline;
+    font-size: 74px;
+    background-color: #A30a0a;
+    /* box-shadow: 1px 1px 2px black, 0 0 15px #d89a00, 0 0 5px #d89a00; */
+}
+
+#label1 {
+position: relative;
+top: 0px;
+left: 417px;
+}
+
+#label2 {
+    position: relative;
+    top: 68px;
+    left: 269px;
+}
+
+#label3 {
+    position: relative;
+    top: 0px;
+    left: 600px;
+}
+
+#userNumber {
+    position: relative;
+    border: 1px solid #d89a00;
+    border-radius: 5px;
+    top: 51px;
+    left: 410px;
+}
+
+select {
+    border-radius: 5px;
+}
+
+ol {
+    display: flex;
+    font-family: 'MyWebFont';
+    color: #d89a00;
+    text-align: center;
+    left: 671px;
+    top: 237px;
+    /* height: 85px;
+    width: 110px; */
+    border-radius: 12px;
+    /* text-decoration: underline; */
+    font-size: 20px;
+    background-color: #A30a0a;
+    margin: 6px;
+}
+
+#list {
+ /* display: flex;
+    left: 0px;
+    top: 0px; */
+    align-items: flex-start;
+     display: flex;
+    left: 299px;
+    top: 164px;
+    position: relative;
+    border: 1px solid #A30a0a;
+    border-right-color:transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+} 
+
+#rollAgain {
+    display: block;
+    align-items: flex-start;
+    position: relative;
+    left: 492px;
+    width: 87px;
+    height: 36px;
+    /* border: 1px solid white; */
+    top: 602px;
+    overflow: hidden;
+}
+
+#repeat {
+    position: relative;
+    cursor: pointer;
+    font-family: 'MyWebFont';
+    background-color: #d89a00;
+    height: 36px;
+    width: 86px;
+    border-radius: 15px;
+    top: 0px;
+    left: 0;
+}
+
+button:focus,
+select:focus {
+    outline: none;
+}
